@@ -1,0 +1,32 @@
+.container{
+display: flex;
+justify-content: space-between;
+height: 200px;
+width: 100%;
+background-color: gainsboro;
+text-align: center;
+}
+ul{
+text-decoration: none;
+display:flex;
+justify-content: space-between;
+list-style: none;
+text-align:center;
+padding-top: 70px;
+padding-right: 100px;
+}
+ul li{
+text-decoration:none;
+cursor: pointer;
+padding-right: 100px;
+color: grey;
+}
+.active{
+color:orange;
+}
+.container img{
+padding-top: 30px;
+width: 100px;
+height: 130px;
+padding-left: 300px;
+}
