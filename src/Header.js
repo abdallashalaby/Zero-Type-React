@@ -6,9 +6,9 @@ import logo from "./logo.png"
 
 function Header() {
     return (
-      <div class="container">
+      <div class="container" id="Header">
         <a href="#">
-          <img src={logo} />
+          <img src={logo} id={"logo"} />
         </a>
         <ul>
           <li>Home</li>

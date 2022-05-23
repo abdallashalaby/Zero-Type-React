@@ -1,4 +1,4 @@
-.container{
+#Header, .container{
 display: flex;
 justify-content: space-between;
 height: 200px;
@@ -24,9 +24,12 @@ color: grey;
 .active{
 color:orange;
 }
-.container img{
+#logo{
 padding-top: 30px;
 width: 100px;
 height: 130px;
 padding-left: 300px;
+}
+body{
+text-align: center;
 }
