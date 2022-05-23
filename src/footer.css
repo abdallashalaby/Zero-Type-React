@@ -1,0 +1,11 @@
+#footer{
+padding: 50px;
+background-color: gainsboro;
+border: solid 1px grey;
+display: flex;
+justify-content: space-between;
+}
+#footer .icons{
+display: flex;
+justify-content: space-between;
+}
